@@ -1,4 +1,4 @@
-const API_URL = 'http://www.omdbapi.com/'; // API URL for fetching movie data
+const API_URL = 'https://www.omdbapi.com/'; // API URL for fetching movie data
 const API_KEY = 'fc6ae81b'; // API key for accessing the OMDB API
 
 
