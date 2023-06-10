@@ -1,6 +1,6 @@
 // movie-details.html
 
-const API_URL = 'http://www.omdbapi.com/';
+const API_URL = 'https://www.omdbapi.com/';
 const API_KEY = 'fc6ae81b';
 
 const movieContainer = document.querySelector('#movie');
