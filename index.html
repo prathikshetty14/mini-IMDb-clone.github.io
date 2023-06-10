@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini IMDB Clone</title>
+  <!-- IMDB Icon -->
+  <link rel="icon" type="image/x-icon" href="https://m.media-amazon.com/images/G/01/imdb/images/social/imdb_logo.png">
+  <!-- CSS for index.html -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Logo -->
+  <div id="logo-icon-container">
+    <div id="logo">
+      <a href="index.html"><h1>IMDb</h1></a>
+    </div>
+  </div>
+
+  <!-- Movie List Container & Main heading of the page -->
+  <div class="container">
+    <h1>Mini IMDB Clone</h1>
+    
+    <!-- Search Form -->
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for a movie...">
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- Container for displaying search results -->
+    <div id="movies"></div>
+
+    <!-- Container for displaying details of a specific movie -->
+    <div id="movie"></div>
+  </div>
+
+  <!-- Favorites List Container -->
+  <div class="aside">
+    <h1>Favorites</h1>
+    <div id="favorites"></div>
+  </div>
+
+  <!-- Javascript for index.html -->
+  <script src="js/index.js"></script>  
+
+</body>
+</html>
